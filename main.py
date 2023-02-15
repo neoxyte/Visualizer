@@ -4,6 +4,8 @@ import math
 pygame.init()
 screen = pygame.display.set_mode((800, 800))
 pygame.display.set_caption("Neo's fractal Generator")
+pygame_icon = pygame.image.load('icon.png')
+pygame.display.set_icon(pygame_icon)
 
 # Fractal Constraints
 X_MIN, X_MAX = -2, 2
